@@ -1,0 +1,136 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 15s ;
+
+ }
+ 
+ 
+ .sa{background-color:darkslategrey;
+    padding: 0px 0px 0px;
+ }
+ 
+ .sa ul{
+    list-style:none ;
+    padding:0px 0px 0px 60px ;
+    margin-right:50px ;
+    display: flex;
+   
+}
+.sa ul li h2{display: inline-block;
+
+
+
+}
+.sa ul li a{
+    color: rgb(255, 77, 0);
+    padding:10px ;
+    border-bottom: 20px;
+
+    margin-right:80px ;
+}
+.sa ul li a:hover{
+    color:black;
+border-radius: 30px ;
+
+background-color: rgb(242, 236, 236);
+}
+.sa h2{
+
+
+}
+
+
+.hs h1 {
+    width:110%;
+    height: 450px;
+    border: 0px ;
+    margin: 30px  ;
+    font-family: arial;
+    font-size: 60px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+background-color: rgb(152, 223, 223);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bgcolor{
+0%
+{
+  background: rgb(6, 201, 201) ;  
+}
+20%
+{
+    background: rgb(171, 166, 24);  
+  }
+  40%
+{
+  background:rgb(45, 200, 21) ;  
+}
+60%
+{
+  background:rgb(165, 17, 229) ;  
+} 
+80%
+{
+  background:rgb(159, 46, 46) ;  
+}
+100%
+{
+  background: rgb(79, 199, 24);  
+}
