@@ -1,22 +1,23 @@
 body{
 
-    margin: 0;
-    padding: 0;
-    animation: bgcolor infinite 15s ;
+  margin: 0;
+  padding: 0;
+  animation: bgcolor infinite 15s ;
+  font-family:sans-serif ;
 
- }
+}
+
+
+.sa{background-color:darkslategrey;
+  padding: 0px 0px 0px;
+}
+
+.sa ul{
+  list-style:none ;
+  padding:0px 0px 0px 60px ;
+  margin-right:50px ;
+  display: flex;
  
- 
- .sa{background-color:darkslategrey;
-    padding: 0px 0px 0px;
- }
- 
- .sa ul{
-    list-style:none ;
-    padding:0px 0px 0px 60px ;
-    margin-right:50px ;
-    display: flex;
-   
 }
 .sa ul li h2{display: inline-block;
 
@@ -24,18 +25,91 @@ body{
 
 }
 .sa ul li a{
-    color: rgb(255, 77, 0);
-    padding:10px ;
-    border-bottom: 20px;
+  color: rgb(255, 77, 0);
+  padding:10px ;
+  border-bottom: 20px;
 
-    margin-right:80px ;
+  margin-right:80px ;
 }
 .sa ul li a:hover{
-    color:black;
+  color:black;
 border-radius: 30px ;
 
 background-color: rgb(242, 236, 236);
 }
+.hs h3{
+
+color: wheat;
+}
+
+
+.hs {
+  width: 90%;
+ height:550px ;
+  border: 0px ;
+  margin: auto  ;
+  font-family: arial;
+  display: flex;
+  overflow:scroll ;
+  
+align-items: center;
+justify-content: center;
+display: block;
+background-color:rgba(57, 57, 57, 0.379)
+
+
+
+
+}
+.hs h3 {
+  font-size: 40px;
+ 
+  flex-direction: column;
+  
+
+
+
+}
+.hs p{
+  font-size: 25px;
+  color: white;
+
+}
+.ds{
+  list-style-position: outside;
+  width: 800px;
+ padding:60px ;
+  border: 0px ;
+  margin: auto;
+  background-color:rgba(71, 215, 225, 0.507);
+  margin-left:0% ;
+  margin-bottom:30% ;
+
+}
+.lg{
+  width: 800px;
+  display: block;
+  mix-blend-mode: multiply;
+  margin-left: 0px;
+  margin-top:0px ;
+  height: 10%;
+  float: left;
+  cursor: pointer;
+  pointer-events: none;
+
+}
+.ds p{
+  min-width: 20%;
+  font-size:20px ;
+  color:black;
+
+}
+
+
+
+
+
+
 
 
 
@@ -43,25 +117,26 @@ background-color: rgb(242, 236, 236);
 @keyframes bgcolor{
 0%
 {
-  background: rgb(6, 201, 201) ;  
+background: rgb(6, 201, 201) ;  
 }
 20%
 {
-    background: rgb(171, 166, 24);  
-  }
-  40%
+  background: rgb(171, 166, 24);  
+}
+40%
 {
-  background:rgb(45, 200, 21) ;  
+background:rgb(45, 200, 21) ;  
 }
 60%
 {
-  background:rgb(165, 17, 229) ;  
+background:rgb(165, 17, 229) ;  
 } 
 80%
 {
-  background:rgb(159, 46, 46) ;  
+background:rgb(159, 46, 46) ;  
 }
 100%
 {
-  background: rgb(79, 199, 24);  
+background: rgb(79, 199, 24);  
 }
+
